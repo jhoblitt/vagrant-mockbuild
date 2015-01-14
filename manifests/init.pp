@@ -1,6 +1,7 @@
-include stdlib
-include augeas
-include epel
+include ::stdlib
+include ::augeas
+include ::epel
+include ::s3cmd
 
 Class['epel'] -> Package<| provider == 'rpm' |>
 

@@ -5,3 +5,4 @@ mod 'camptocamp/augeas'
 
 mod 'stahnma/epel'
 mod 'puppetlabs/vcsrepo'
+mod 'golja/s3cmd'
